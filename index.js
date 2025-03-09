@@ -14,7 +14,7 @@ app.use('/director', require('./routes/director'))
 app.use('/gender', require('./routes/gender'))
 app.use('/type', require('./routes/type'))
 app.use('/media', require('./routes/media'))
-app.use('/producer', require('./routes/producer'))
+app.use('/producer', require('./routes/produc'))
 
 
 app.listen(port, () => {
