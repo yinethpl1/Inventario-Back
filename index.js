@@ -5,7 +5,9 @@ require('dotenv').config()
 
 const app = express()
 const port = process.env.PORT;
-
+app.use(cors({
+  https:peliculas-frontiud.onrender.com
+   }));
 getConnection();
 
 app.use(express.json());
